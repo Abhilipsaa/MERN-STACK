@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(224, 224, 224);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px;
+    height: 50px;
+    width: 90%;
+
+}
+
+h3{
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+
+li a {
+    display: block;
+    color: rgb(11, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #f9fffe;
+    color: black;
+}
+.active {
+    /* background-color: #0ae3ce; */
+    color: black;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    object-fit: cover;
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+button{
+    background-color: orangered;
+    border-radius: 30px;
+    border: 1px solid grey;
+    color: azure;
+    height: 20px;
+}
+
+.btn{
+    margin-left: 100px;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    margin-left: 100px;
+}
+
+.mid img{
+    height: 350px;
+    width: 350px;
+    border-radius: 25%;
+    margin-right: 50%;
+    margin-left: 20%;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+}
+
+#show_menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    text-align: center;
+    margin: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#show_menu img{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border: 5px solid rgb(214, 214, 214);
+    border-radius: 20px;
+    
+} 
+#show_menu div{
+    margin-top: 10px;
+    object-fit: contain;
+    border-radius: 10px;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+    
+}
